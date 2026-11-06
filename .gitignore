@@ -1,0 +1,6 @@
+node_modules/
+dist/
+# Sicurezza: nel repository va solo il codice, mai dati o documenti.
+*.xlsx
+*.pdf
+vetrina.json

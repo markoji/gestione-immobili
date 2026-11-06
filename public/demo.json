@@ -1,0 +1,43 @@
+{
+  "versione": 1,
+  "aggiornatoIl": "2026-11-06T09:12:00",
+  "avvisi": [
+    { "livello": "urgente", "testo": "Primo piano sx: arretrato 320 € (oltre il 50% del canone)" },
+    { "livello": "attenzione", "testo": "Quota autoclave Piano terra esterno non pagata da 14 giorni" },
+    { "livello": "attenzione", "testo": "IMU saldo", "data": "2026-12-16" }
+  ],
+  "riquadri": [
+    {
+      "id": "contratti", "titolo": "Contratti attivi", "icona": "contratti", "valore": "5",
+      "righe": ["su 9 unità · 1 comodato", "prossima scadenza: 2027"],
+      "azione": { "tipo": "cartella", "percorso": "01 Contratti" }
+    },
+    {
+      "id": "scadenze", "titolo": "Scadenze", "icona": "scadenze", "valore": "3",
+      "righe": ["nei prossimi 60 giorni", "prossima: IMU saldo 16/12"],
+      "etichetta": { "testo": "1", "livello": "attenzione" }
+    },
+    {
+      "id": "pagamenti", "titolo": "Pagamenti", "icona": "pagamenti", "valore": "320 €",
+      "righe": ["arretrati · 1 inquilino", "incassato novembre: 1.130 / 1.450 €"],
+      "etichetta": { "testo": "Arretrati", "livello": "urgente" }
+    },
+    {
+      "id": "solare", "titolo": "Pannelli solari", "icona": "solare", "valore": "1.240 €",
+      "righe": ["guadagno GSE 2026", "16.300 kWh prodotti · 15 kW", "risparmio inquilini: ~2.100 €", "ultimo bilancio GSE: 30/09/2026"]
+    },
+    {
+      "id": "bilancio", "titolo": "Bilancio 2026", "icona": "bilancio", "valore": "+14.900 €",
+      "righe": ["incassi 17.400 € · spese 2.500 €"]
+    },
+    {
+      "id": "manutenzioni", "titolo": "Manutenzioni", "icona": "manutenzioni", "valore": "1",
+      "righe": ["programmata", "autoclave, gennaio"]
+    },
+    {
+      "id": "documenti", "titolo": "Documenti", "icona": "documenti", "valore": "4",
+      "righe": ["aggiunti questo mese"]
+    }
+  ],
+  "documentoProva": "01 Contratti/Vico Corato 4 - Piano terra esterno/Contratto ESEMPIO.pdf"
+}
